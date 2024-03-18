@@ -1,0 +1,9 @@
+<script>
+
+function redirect_to_external_site() {
+    wp_redirect( 'http://www.tuktukanime.42web.io' );
+    exit;
+}
+add_action( 'template_redirect', 'redirect_to_external_site' );
+
+</script>
